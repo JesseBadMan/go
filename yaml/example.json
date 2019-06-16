@@ -1,0 +1,85 @@
+{
+  "weightedMeanCoefficient": 0, // 5min数据各维度做加权平均 加权平均系数
+
+  "boostUV": 0, // UV权重
+  "boostNumberOfConsumer": 0, // 消费人数权重
+  "boostIncome": 0, // 收入权重
+  "boostNumberOfBarrageSender": 0, // 弹幕人数权重
+  "boostNumberOfBarrage": 0, // 弹幕数量权重
+
+  // 分段函数配置
+  // 数值区间
+  // level1 [0,1]
+  "level1": {
+    "alpha": 0, // 公式的第一个系数
+    "beta": 0 // 公式的第二个系数
+  },
+  // level2 [2,10]
+  "level2": {
+    "alpha": 0,
+    "beta": 0
+  },
+  // level3 [11,50]
+  "level3": {
+    "alpha": 0,
+    "beta": 0
+  },
+  // level4 [51,100]
+  "level4": {
+    "alpha": 0,
+    "beta": 0
+  },
+  // level5 [101,500]
+  "level5": {
+    "alpha": 0,
+    "beta": 0
+  },
+  // level6 [501,1000]
+  "level6": {
+    "alpha": 0,
+    "beta": 0
+  },
+  // level7 [1001,5000]
+  "level7": {
+    "alpha": 0,
+    "beta": 0
+  },
+  // level8 [5001,20000]
+  "level8": {
+    "alpha": 0,
+    "beta": 0
+  },
+  // level9 [2万,4万]
+  "level9": {
+    "alpha": 0,
+    "beta": 0
+  },
+  // level10 [4万,20万]
+  "level10": {
+    "alpha": 0,
+    "beta": 0
+  },
+  // level11 [20万,50万]
+  "level11": {
+    "alpha": 0,
+    "beta": 0
+  },
+  // level12 [50万,+∞)
+  "level12": {
+    "alpha": 0,
+    "beta": 0
+  },
+
+  // 游戏标签权重
+  "finalGameBoost": {
+    "uvboost": 0, // UV权重
+    "incomeboost": 0, // 收入权重
+    "barrageboost": 0 // 弹幕权重
+  },
+  // 泛娱乐标签权重
+  "finalEntertainmentBoost": {
+    "uvboost": 0,
+    "incomeboost": 0,
+    "barrageboost": 0
+  }
+}

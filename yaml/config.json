@@ -1,0 +1,66 @@
+{
+    "weightedMeanCoefficient": 0,
+    "boostUV": 0,
+    "boostNumberOfConsumer": 0,
+    "boostIncome": 0,
+    "boostNumberOfBarrageSender": 0,
+    "boostNumberOfBarrage": 0,
+    "level1": {
+        "alpha": 0,
+        "beta": 0
+    },
+    "level2": {
+        "alpha": 0,
+        "beta": 0
+    },
+    "level3": {
+        "alpha": 0,
+        "beta": 0
+    },
+    "level4": {
+        "alpha": 0,
+        "beta": 0
+    },
+    "level5": {
+        "alpha": 0,
+        "beta": 0
+    },
+    "level6": {
+        "alpha": 0,
+        "beta": 0
+    },
+    "level7": {
+        "alpha": 0,
+        "beta": 0
+    },
+    "level8": {
+        "alpha": 0,
+        "beta": 0
+    },
+    "level9": {
+        "alpha": 0,
+        "beta": 0
+    },
+    "level10": {
+        "alpha": 0,
+        "beta": 0
+    },
+    "level11": {
+        "alpha": 0,
+        "beta": 0
+    },
+    "level12": {
+        "alpha": 0,
+        "beta": 0
+    },
+    "tagGameBoost": {
+        "uvBoost": 0,
+        "incomeBoost": 0,
+        "barrageBoost": 0
+    },
+    "tagEntertainmentBoost": {
+        "uvBoost": 0,
+        "incomeBoost": 0,
+        "barrageBoost": 0
+    }
+}
