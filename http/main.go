@@ -2,10 +2,16 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"net/http"
 )
 
+
+
+
 func main() {
+
+	log.Print("jesse demo 1")
 	http.HandleFunc("/form", TestForm)
 	http.ListenAndServe(":9090", nil)
 }
